@@ -10,6 +10,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using time.engine.api;
+using time.engine.api.Configuration;
 using time.engine.api.V1.Services;
 using time.engine.contracts;
 
@@ -44,6 +45,7 @@ namespace time.engine
 
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddSingleton<ITimeService, TimeService>();
+            services.Configure<VersionConfig>(Configuration.GetSection("App"));
 
             services.AddSwaggerGen(
 
