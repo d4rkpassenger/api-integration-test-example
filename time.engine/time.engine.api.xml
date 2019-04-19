@@ -34,6 +34,11 @@
             <param name="operation">The operation to apply the filter to.</param>
             <param name="context">The current operation filter context.</param>
         </member>
+        <member name="T:time.engine.Startup">
+            <summary>
+            Application startup configuration
+            </summary>
+        </member>
         <member name="M:time.engine.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
             <summary>
             Configures the application using the provided builder, hosting environment, and API version description provider.

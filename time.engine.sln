@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "time.engine.api", "time.eng
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{A5559AF5-EFF9-4779-A08A-A44643D93E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "time.engine.contracts", "time.engine.contracts\time.engine.contracts.csproj", "{55C401FA-C30F-45BF-A1A6-9BDA2F7F46DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "time.engine.contracts", "time.engine.contracts\time.engine.contracts.csproj", "{55C401FA-C30F-45BF-A1A6-9BDA2F7F46DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "time.engine.integration", "time.engine.integration\time.engine.integration.csproj", "{06F2D4A4-6595-465F-B444-037E63AAFBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "time.engine.integration", "time.engine.integration\time.engine.integration.csproj", "{06F2D4A4-6595-465F-B444-037E63AAFBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{C878A5B8-8D8C-43BF-AA50-50AF0B91FCCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "time.engine.api.unittests", "time.engine.api.unittests\time.engine.api.unittests.csproj", "{72F2B8F1-22CF-4160-A232-EA687D38DD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,17 @@ Global
 		{06F2D4A4-6595-465F-B444-037E63AAFBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F2D4A4-6595-465F-B444-037E63AAFBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F2D4A4-6595-465F-B444-037E63AAFBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F2B8F1-22CF-4160-A232-EA687D38DD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F2B8F1-22CF-4160-A232-EA687D38DD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F2B8F1-22CF-4160-A232-EA687D38DD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F2B8F1-22CF-4160-A232-EA687D38DD80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{06F2D4A4-6595-465F-B444-037E63AAFBB5} = {A5559AF5-EFF9-4779-A08A-A44643D93E6A}
+		{72F2B8F1-22CF-4160-A232-EA687D38DD80} = {C878A5B8-8D8C-43BF-AA50-50AF0B91FCCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {323965DA-3D77-4E74-BDB8-8305892BB5CB}
