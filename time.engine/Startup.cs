@@ -15,6 +15,9 @@ using time.engine.contracts;
 
 namespace time.engine
 {
+    /// <summary>
+    /// Application startup configuration
+    /// </summary>
     public class Startup
     {
         public Startup(IConfiguration configuration)
